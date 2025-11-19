@@ -16,33 +16,21 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="branding">
-        <div class="brand-main" data-i18n="brand_title">Joshua's Lab</div>
-        <div class="brand-sub">
-          <span data-i18n="brand_affiliation_1">
-            NUS Yong Loo Lin School of Medicine
-          </span>
-          <span class="brand-dot">·</span>
-          <span data-i18n="brand_affiliation_2">
-            Department of Otolaryngology
-          </span>
+        <div class="logo-container">
+          <div class="logo-placeholder">Joshua<br>Lab</div>
         </div>
       </div>
 
       <nav class="main-nav">
-        <a href="index.html" class="nav-link" data-nav="home" data-i18n="nav_home">Home</a>
-        <a href="research.html" class="nav-link" data-nav="research" data-i18n="nav_research">Research</a>
-        <a href="team.html" class="nav-link" data-nav="team" data-i18n="nav_team">Team</a>
-        <a href="news.html" class="nav-link" data-nav="news" data-i18n="nav_news">News</a>
-        <a href="publications.html" class="nav-link" data-nav="publications" data-i18n="nav_publications">Publications</a>
-        <a href="positions.html" class="nav-link" data-nav="positions" data-i18n="nav_positions">Positions</a>
-        <a href="contact.html" class="nav-link" data-nav="contact" data-i18n="nav_contact">Contact</a>
+        <a href="index.html" class="nav-link" data-nav="home">Home</a>
+        <a href="research.html" class="nav-link" data-nav="research">Research</a>
+        <a href="team.html" class="nav-link" data-nav="team">Team</a>
+        <a href="news.html" class="nav-link" data-nav="news">News</a>
+        <a href="publications.html" class="nav-link" data-nav="publications">Publications</a>
+        <a href="positions.html" class="nav-link" data-nav="positions">Positions</a>
+        <a href="labfun.html" class="nav-link" data-nav="labfun">Lab Fun</a>
+        <a href="contact.html" class="nav-link" data-nav="contact">Contact</a>
       </nav>
-
-      <div class="lang-switch" aria-label="Language switch">
-        <button class="lang-btn is-active" data-lang="en">EN</button>
-        <span class="lang-divider">/</span>
-        <button class="lang-btn" data-lang="zh">中文</button>
-      </div>
     </div>
   </header>
 
@@ -59,26 +47,52 @@
     </section>
 
     <section class="section reveal-on-scroll">
-      <div class="container section-inner contact-grid">
-        <div class="card card-soft">
-          <h2 class="card-title" data-i18n="page_contact_block_1_title">
-            Lab affiliation
-          </h2>
-          <p class="card-body" data-i18n="page_contact_block_1_body">
-            Joshua's Lab<br />
-            Department of Otolaryngology<br />
-            Yong Loo Lin School of Medicine<br />
-            National University of Singapore
-          </p>
-        </div>
+      <div class="container section-inner">
+        <div class="contact-grid-layout">
+          <div class="contact-card">
+            <h2 class="contact-section-title" data-i18n="contact_info_title">Contact Information</h2>
+            
+            <div class="contact-item">
+              <h3 class="contact-item-label" data-i18n="contact_email_label">Email:</h3>
+              <p class="contact-item-value">
+                <a href="mailto:joshtay@nus.edu.sg" class="contact-email">joshtay@nus.edu.sg</a>
+              </p>
+            </div>
 
-        <div class="card card-soft">
-          <h2 class="card-title" data-i18n="page_contact_block_2_title">
-            Contact
-          </h2>
-          <p class="card-body" data-i18n="page_contact_block_2_body">
-            Specific contact details (email, phone, office location) will be added here when confirmed.
-          </p>
+            <div class="contact-item">
+              <h3 class="contact-item-label" data-i18n="contact_address_label">Office Address:</h3>
+              <p class="contact-item-value">
+                1E Kent Ridge Road<br>
+                NUHS Tower Block Level 7<br>
+                Singapore 119228
+              </p>
+            </div>
+
+            <div class="contact-item">
+              <h3 class="contact-item-label" data-i18n="contact_affiliation_label">Affiliation:</h3>
+              <p class="contact-item-value">
+                <span data-i18n="contact_affiliation_line1">Department of Otolaryngology</span><br>
+                <span data-i18n="contact_affiliation_line2">Yong Loo Lin School of Medicine</span><br>
+                <span data-i18n="contact_affiliation_line3">National University of Singapore</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h2 class="contact-section-title" data-i18n="contact_location_title">Location</h2>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7622961234567!2d103.78240931475395!3d1.2936803990637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a5778a35b49%3A0x5a7b4b7e9c4d1d0a!2sNational%20University%20Hospital!5e0!3m2!1sen!2ssg!4v1234567890123!5m2!1sen!2ssg"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="National University Hospital Location">
+              </iframe>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -87,4 +101,31 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-left">
-        <span data-i18n="footer_lab_name">Joshua'
+        <span data-i18n="footer_lab_name">Joshua's Lab</span>
+        <span class="footer-dot">·</span>
+        <span data-i18n="footer_affiliation">
+          NUS Yong Loo Lin School of Medicine, Department of Otolaryngology
+        </span>
+      </div>
+      <div class="footer-right">
+        <span data-i18n="footer_rights_prefix">©</span>
+        <span id="footer-year"></span>
+        <span data-i18n="footer_rights_suffix">All rights reserved.</span>
+      </div>
+    </div>
+    <div class="container footer-links">
+      <div class="footer-affiliations">
+        <a href="https://medicine.nus.edu.sg/ent/" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <span data-i18n="footer_link_nus_ent">NUS Department of Otolaryngology</span>
+        </a>
+        <span class="footer-link-divider">|</span>
+        <a href="https://www.nuh.com.sg/care-at-nuh/services/otolaryngology-head-and-neck-surgery" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <span data-i18n="footer_link_nuh_ent">NUH Otolaryngology</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
