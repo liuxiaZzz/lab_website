@@ -6,4 +6,4 @@ NUS Yong Loo Lin School of Medicine, Department of Otolaryngology.
 Default language: English  
 Secondary language: Simplified Chinese
 
-[link](liuxiaZzz.github.io/lab_website)
+[link](https://liuxiazzz.github.io/lab_website/)
