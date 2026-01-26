@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>News | Joshua's Lab</title>
+  <title>News | ENT Genomics Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,9 +17,19 @@
     <div class="container header-inner">
       <div class="branding">
         <div class="logo-container">
-          <div class="logo-placeholder">Joshua<br>Lab</div>
+          <!-- TODO: Upload your logo to assets/images/logo.png -->
+          <img src="assets/images/logo.png" alt="Lab Logo" class="site-logo">
+        </div>
+        <div class="brand-text">
+          <span class="brand-main">ENT Genomics Lab</span>
         </div>
       </div>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
       <nav class="main-nav">
         <a href="index.html" class="nav-link" data-nav="home">Home</a>
@@ -49,12 +59,42 @@
     <section class="section reveal-on-scroll">
       <div class="container section-inner">
         <div class="news-list">
+          <!-- Video Highlight -->
+          <div class="news-item">
+            <div class="news-date">Featured Video</div>
+            <h3 class="news-title">Lab Research Highlights</h3>
+            <p class="news-description">
+              Watch our latest research presentation and lab activities.
+            </p>
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/Zm2vHrOcci4" title="Lab Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!-- News Item: External Media Coverage -->
+          <div class="news-item">
+            <div class="news-date">Media Coverage</div>
+            <h3 class="news-title">NUHS Large-scale Nose Cancer Screening Research</h3>
+            <p class="news-description">
+              Featured in 8world News: Our lab's involvement in the breakthrough large-scale screening research for Nasopharyngeal Cancer (NPC).
+            </p>
+            <div class="news-image-container">
+              <a href="https://www.8world.com/singapore/nuhs-large-scale-nose-cancer-screening-research-2288931" target="_blank" rel="noopener noreferrer">
+                <!-- TODO: Save a screenshot or photo related to the news as assets/images/news-8world.png -->
+                <img src="assets/images/news-8world.png" alt="8world News Coverage" onerror="this.onerror=null; this.src='https://placehold.co/800x450?text=News+Coverage+Image';">
+              </a>
+            </div>
+            <a href="https://www.8world.com/singapore/nuhs-large-scale-nose-cancer-screening-research-2288931" target="_blank" class="news-link">
+              Read Article on 8world <span class="arrow">→</span>
+            </a>
+          </div>
+
           <!-- News Item 1 -->
           <div class="news-item">
             <div class="news-date" data-i18n="news_1_date">November 2024</div>
             <h3 class="news-title" data-i18n="news_1_title">Lab Officially Established</h3>
             <p class="news-description" data-i18n="news_1_description">
-              Joshua's Lab has been officially established at the Department of Otolaryngology, 
+              ENT Genomics Lab has been officially established at the Department of Otolaryngology, 
               NUS Yong Loo Lin School of Medicine. We are excited to begin our research journey 
               in head and neck oncology and translational medicine.
             </p>
@@ -111,7 +151,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-left">
-        <span data-i18n="footer_lab_name">Joshua's Lab</span>
+        <span data-i18n="footer_lab_name">ENT Genomics Lab</span>
         <span class="footer-dot">·</span>
         <span data-i18n="footer_affiliation">
           NUS Yong Loo Lin School of Medicine, Department of Otolaryngology

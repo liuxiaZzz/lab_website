@@ -1,7 +1,7 @@
 // Bilingual dictionary
 const translations = {
   en: {
-    brand_title: "Joshua's Lab",
+    brand_title: "ENT Genomics Lab",
     brand_affiliation_1: "NUS Yong Loo Lin School of Medicine",
     brand_affiliation_2: "Department of Otolaryngology",
 
@@ -15,7 +15,7 @@ const translations = {
 
     hero_kicker:
       "NUS Yong Loo Lin School of Medicine · Department of Otolaryngology",
-    hero_title: "Joshua's Lab",
+    hero_title: "ENT Genomics Lab",
     hero_subtitle:
       "A research group at the interface of otolaryngology and biomedical science.",
     hero_body:
@@ -65,7 +65,7 @@ const translations = {
     // Research page
     page_research_title: "Research",
     page_research_subtitle:
-      "An overview of ongoing and planned research directions in Joshua's Lab.",
+      "An overview of ongoing and planned research directions in ENT Genomics Lab.",
     page_research_block_1_title: "Focus Area 01",
     page_research_block_1_body:
       "Placeholder for a detailed description of the first major research direction. This could include clinical questions, methodology, and collaborative partners.",
@@ -82,7 +82,7 @@ const translations = {
     // Team page
     page_team_title: "Team",
     page_team_subtitle:
-      "Meet the researchers behind Joshua's Lab.",
+      "Meet the researchers behind ENT Genomics Lab.",
     page_team_pill: "Coming soon",
     page_team_body:
       "This page will provide a structured overview of the team, including principal investigator, clinical collaborators, research fellows, students and administrative support.",
@@ -140,7 +140,7 @@ const translations = {
 
     news_1_date: "November 2024",
     news_1_title: "Lab Officially Established",
-    news_1_description: "Joshua's Lab has been officially established at the Department of Otolaryngology, NUS Yong Loo Lin School of Medicine. We are excited to begin our research journey in head and neck oncology and translational medicine.",
+    news_1_description: "ENT Genomics Lab has been officially established at the Department of Otolaryngology, NUS Yong Loo Lin School of Medicine. We are excited to begin our research journey in head and neck oncology and translational medicine.",
     news_2_date: "October 2024",
     news_2_title: "New Publication in PNAS",
     news_2_description: "Our collaborative work on innate lymphoid cells in head and neck cancer has been published in Proceedings of the National Academy of Sciences. This study provides novel insights into the tumor immune microenvironment.",
@@ -173,10 +173,10 @@ const translations = {
     // Contact page
     page_contact_title: "Contact",
     page_contact_subtitle:
-      "Get in touch with Joshua's Lab.",
+      "Get in touch with ENT Genomics Lab.",
     page_contact_block_1_title: "Lab affiliation",
     page_contact_block_1_body:
-      "Joshua's Lab\nDepartment of Otolaryngology\nYong Loo Lin School of Medicine\nNational University of Singapore",
+      "ENT Genomics Lab\nDepartment of Otolaryngology\nYong Loo Lin School of Medicine\nNational University of Singapore",
     page_contact_block_2_title: "Contact",
     page_contact_block_2_body:
       "Specific contact details (email, phone, office location) will be added here when confirmed.",
@@ -190,7 +190,7 @@ const translations = {
     contact_affiliation_line3: "National University of Singapore",
     contact_location_title: "Location",
 
-    footer_lab_name: "Joshua's Lab",
+    footer_lab_name: "ENT Genomics Lab",
     footer_affiliation:
       "NUS Yong Loo Lin School of Medicine, Department of Otolaryngology",
     footer_rights_prefix: "©",
@@ -200,7 +200,7 @@ const translations = {
   },
 
   zh: {
-    brand_title: "Joshua 实验室",
+    brand_title: "ENT Genomics Lab",
     brand_affiliation_1: "新加坡国立大学 Yong Loo Lin 医学院",
     brand_affiliation_2: "耳鼻咽喉科",
 
@@ -213,7 +213,7 @@ const translations = {
     nav_contact: "联系",
 
     hero_kicker: "新加坡国立大学 · Yong Loo Lin 医学院 · 耳鼻咽喉科",
-    hero_title: "Joshua 实验室",
+    hero_title: "ENT Genomics Lab",
     hero_subtitle: "立足耳鼻咽喉临床实践的转化医学与基础研究团队。",
     hero_body:
       "实验室正在逐步建设中，将围绕耳鼻咽喉相关疾病的临床问题与基础机制展开研究。具体研究方向与课题将陆续更新。",
@@ -259,7 +259,7 @@ const translations = {
 
     // Research page
     page_research_title: "研究方向",
-    page_research_subtitle: "Joshua 实验室的主要研究板块概览。",
+    page_research_subtitle: "ENT Genomics Lab 的主要研究板块概览。",
     page_research_block_1_title: "研究主题 01",
     page_research_block_1_body:
       "用于详细介绍第一个主要研究方向，例如关注的临床问题、研究方法与合作团队等。",
@@ -272,7 +272,7 @@ const translations = {
 
     // Team page
     page_team_title: "团队",
-    page_team_subtitle: "认识 Joshua 实验室的研究人员。",
+    page_team_subtitle: "认识 ENT Genomics Lab 的研究人员。",
     page_team_pill: "即将上线",
     page_team_body:
       "本页面将提供团队的完整介绍,包括首席研究员、临床合作者、研究员、学生及行政支持人员。",
@@ -339,7 +339,7 @@ const translations = {
 
     news_1_date: "2024年11月",
     news_1_title: "实验室正式成立",
-    news_1_description: "Joshua 实验室已在新加坡国立大学 Yong Loo Lin 医学院耳鼻咽喉科正式成立。我们很高兴开始在头颈肿瘤学和转化医学领域的研究之旅。",
+    news_1_description: "ENT Genomics Lab 已在新加坡国立大学 Yong Loo Lin 医学院耳鼻咽喉科正式成立。我们很高兴开始在头颈肿瘤学和转化医学领域的研究之旅。",
     news_2_date: "2024年10月",
     news_2_title: "在 PNAS 发表新论文",
     news_2_description: "我们关于头颈部癌症中先天性淋巴细胞的合作研究已发表在《美国国家科学院院刊》上。该研究为肿瘤免疫微环境提供了新的见解。",
@@ -369,10 +369,10 @@ const translations = {
 
     // Contact page
     page_contact_title: "联系信息",
-    page_contact_subtitle: "与 Joshua 实验室取得联系。",
-    page_contact_block_1_title: "隶属单位",
+    page_contact_subtitle: "与 ENT Genomics Lab 取得联系。",
+    page_contact_block_1_title: "实验室隶属",
     page_contact_block_1_body:
-      "Joshua 实验室\n耳鼻咽喉科\nYong Loo Lin 医学院\n新加坡国立大学",
+      "ENT Genomics Lab\n耳鼻咽喉科\nYong Loo Lin 医学院\n新加坡国立大学",
     page_contact_block_2_title: "联系方式",
     page_contact_block_2_body:
       "具体邮箱、电话和办公地点确认后将公布在此。",
@@ -386,7 +386,7 @@ const translations = {
     contact_affiliation_line3: "新加坡国立大学",
     contact_location_title: "位置",
 
-    footer_lab_name: "Joshua 实验室",
+    footer_lab_name: "ENT Genomics Lab",
     footer_affiliation: "新加坡国立大学 Yong Loo Lin 医学院 · 耳鼻咽喉科",
     footer_rights_prefix: "©",
     footer_rights_suffix: "保留所有权利。",
@@ -539,6 +539,52 @@ document.addEventListener("DOMContentLoaded", () => {
   const yearSpan = document.getElementById("footer-year");
   if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
+  }
+
+  // Mobile Menu Logic
+  const mobileToggle = document.querySelector(".mobile-menu-toggle");
+  const mainNav = document.querySelector(".main-nav");
+
+  // Create overlay if it doesn't exist
+  if (!document.querySelector(".mobile-menu-overlay")) {
+    const overlay = document.createElement("div");
+    overlay.className = "mobile-menu-overlay";
+    document.body.appendChild(overlay);
+    
+    // Toggle function
+    const toggleMenu = () => {
+      const isOpen = mainNav.classList.contains("is-open");
+      if (isOpen) {
+        mainNav.classList.remove("is-open");
+        mobileToggle.classList.remove("is-active");
+        overlay.classList.remove("is-visible");
+        document.body.style.overflow = "";
+      } else {
+        mainNav.classList.add("is-open");
+        mobileToggle.classList.add("is-active");
+        overlay.classList.add("is-visible");
+        document.body.style.overflow = "hidden";
+      }
+    };
+
+    if (mobileToggle) {
+      mobileToggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleMenu();
+      });
+    }
+
+    overlay.addEventListener("click", () => {
+      if (mainNav && mainNav.classList.contains("is-open")) toggleMenu();
+    });
+
+    if (mainNav) {
+      mainNav.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+          if (mainNav.classList.contains("is-open")) toggleMenu();
+        });
+      });
+    }
   }
 
   highlightActiveNav();

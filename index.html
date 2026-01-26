@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="Joshua's Lab at NUS Yong Loo Lin School of Medicine, Department of Otolaryngology."
+    content="ENT Genomics Lab at NUS Yong Loo Lin School of Medicine, Department of Otolaryngology."
   />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,9 +22,19 @@
     <div class="container header-inner">
       <div class="branding">
         <div class="logo-container">
-          <div class="logo-placeholder">ENT<br>Lab</div>
+          <!-- TODO: Upload your logo to assets/images/logo.png -->
+          <img src="assets/images/logo.png" alt="Lab Logo" class="site-logo">
+        </div>
+        <div class="brand-text">
+          <span class="brand-main">ENT Genomics Lab</span>
         </div>
       </div>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
       <nav class="main-nav">
         <a href="index.html" class="nav-link" data-nav="home">Home</a>
@@ -135,43 +145,29 @@
           </a>
         </div>
 
-        <div class="news-slider-wrapper">
-          <div class="news-slider">
-            <!-- News Item 1 -->
-            <div class="news-slider-item">
-              <div class="news-slider-date">November 2024</div>
-              <h3 class="news-slider-title">Lab Officially Established</h3>
-              <p class="news-slider-desc">Joshua's Lab has been officially established at the Department of Otolaryngology, NUS Yong Loo Lin School of Medicine. We are excited to begin our research journey in head and neck oncology and translational medicine.</p>
-            </div>
-
-            <!-- News Item 2 -->
-            <div class="news-slider-item">
-              <div class="news-slider-date">October 2024</div>
-              <h3 class="news-slider-title">New Publication in PNAS</h3>
-              <p class="news-slider-desc">Our collaborative work on innate lymphoid cells in head and neck cancer has been published in Proceedings of the National Academy of Sciences. This study provides novel insights into the tumor immune microenvironment.</p>
-            </div>
-
-            <!-- News Item 3 -->
-            <div class="news-slider-item">
-              <div class="news-slider-date">September 2024</div>
-              <h3 class="news-slider-title">Recruiting PhD Students and Postdocs</h3>
-              <p class="news-slider-desc">We are actively seeking motivated PhD students and postdoctoral fellows to join our team. Research opportunities are available in cancer immunology, biomarker discovery, and digital health technologies.</p>
-            </div>
-
-            <!-- News Item 4 -->
-            <div class="news-slider-item">
-              <div class="news-slider-date">August 2024</div>
-              <h3 class="news-slider-title">Grant Award Received</h3>
-              <p class="news-slider-desc">Our research proposal on nasopharyngeal carcinoma screening has been awarded funding. This will support our efforts in developing improved early detection strategies for NPC in high-risk populations.</p>
-            </div>
-
-            <!-- News Item 5 -->
-            <div class="news-slider-item">
-              <div class="news-slider-date">July 2024</div>
-              <h3 class="news-slider-title">Collaboration with NUH Launched</h3>
-              <p class="news-slider-desc">A new collaborative project with National University Hospital has been initiated to study patient outcomes in head and neck surgery. This partnership will strengthen the translational impact of our research.</p>
-            </div>
-          </div>
+        <div class="news-list">
+          <ul class="news-markdown">
+            <li>
+              <span class="news-date">[Nov 2024]</span>
+              <span class="news-content">🎉 <strong>Congratulations!</strong> Our lab is officially established at the Department of Otolaryngology, NUS Yong Loo Lin School of Medicine. Excited to embark on this research journey!</span>
+            </li>
+            <li>
+              <span class="news-date">[Oct 2024]</span>
+              <span class="news-content">📄 <strong>New Publication!</strong> Our collaborative work on innate lymphoid cells in head and neck cancer is now published in <em>PNAS</em>. Congrats to all co-authors!</span>
+            </li>
+            <li>
+              <span class="news-date">[Sep 2024]</span>
+              <span class="news-content">📢 <strong>We're Hiring!</strong> Looking for motivated PhD students and postdocs to join our team. Opportunities in cancer immunology, biomarker discovery, and digital health. <a href="positions.html">Apply now →</a></span>
+            </li>
+            <li>
+              <span class="news-date">[Aug 2024]</span>
+              <span class="news-content">💰 <strong>Grant Awarded!</strong> Our research proposal on nasopharyngeal carcinoma screening has received funding. Thank you for the support!</span>
+            </li>
+            <li>
+              <span class="news-date">[Jul 2024]</span>
+              <span class="news-content">🤝 <strong>New Collaboration!</strong> Partnering with National University Hospital on head and neck surgery outcomes research.</span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -181,7 +177,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-left">
-        <span data-i18n="footer_lab_name">Joshua's Lab</span>
+        <span data-i18n="footer_lab_name">ENT Genomics Lab</span>
         <span class="footer-dot">·</span>
         <span data-i18n="footer_affiliation">
           NUS Yong Loo Lin School of Medicine, Department of Otolaryngology

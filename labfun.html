@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Lab Fun | Joshua's Lab</title>
+  <title>Lab Fun | ENT Genomics Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,9 +17,19 @@
     <div class="container header-inner">
       <div class="branding">
         <div class="logo-container">
-          <div class="logo-placeholder">Joshua<br>Lab</div>
+          <!-- TODO: Upload your logo to assets/images/logo.png -->
+          <img src="assets/images/logo.png" alt="Lab Logo" class="site-logo">
+        </div>
+        <div class="brand-text">
+          <span class="brand-main">ENT Genomics Lab</span>
         </div>
       </div>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
       <nav class="main-nav">
         <a href="index.html" class="nav-link" data-nav="home">Home</a>
@@ -40,7 +50,7 @@
         <div>
           <h1 class="page-title">Lab Fun</h1>
           <p class="page-subtitle">
-            Team activities, celebrations, and memorable moments from Joshua's Lab.
+            Team activities, celebrations, and memorable moments from ENT Genomics Lab.
           </p>
         </div>
       </div>
@@ -49,44 +59,59 @@
     <section class="section reveal-on-scroll">
       <div class="container section-inner">
         <div class="labfun-grid">
-          <!-- Photo Gallery Placeholder 1 -->
+          <!-- Event 1: Lab Gathering 2024 -->
           <div class="labfun-card">
-            <div class="labfun-photo">
-              <div class="photo-placeholder">Photo</div>
+            <!-- 
+              TODO: IMAGE SETUP
+              1. Create a folder: assets/images/labfun/2024-gathering/
+              2. Put your photos there (e.g., photo1.jpg, photo2.jpg)
+              3. Update the src attributes below.
+              You can add as many <img> tags as you want. They will scroll horizontally.
+            -->
+            <div class="labfun-gallery">
+              <img src="assets/images/labfun/2025-gathering/photo1.jpeg" alt="Lab Gathering" onerror="this.style.display='none';">
+              <img src="assets/images/labfun/2025-gathering/photo2.jpeg" alt="Lab Gathering" onerror="this.style.display='none';">
+              <img src="assets/images/labfun/2025-gathering/photo3.jpeg" alt="Lab Gathering" onerror="this.style.display='none';">
+              <div class="photo-placeholder">No Photos Yet</div>
             </div>
             <div class="labfun-info">
-              <h3 class="labfun-title">Lab Gathering 2024</h3>
-              <p class="labfun-date">November 2024</p>
+              <h3 class="labfun-title">Lab Gathering 2025</h3>
+              <p class="labfun-date">November 2025</p>
               <p class="labfun-description">
                 Team dinner celebrating the successful completion of our research milestones.
               </p>
             </div>
           </div>
 
-          <!-- Photo Gallery Placeholder 2 -->
+          <!-- Event 2: Conference Trip -->
           <div class="labfun-card">
-            <div class="labfun-photo">
-              <div class="photo-placeholder">Photo</div>
+            <div class="labfun-gallery">
+              <img src="assets/images/labfun/2025-conference/photo1.jpeg" alt="Conference Trip" onerror="this.style.display='none';">
+              <img src="assets/images/labfun/2025-conference/photo2.jpeg" alt="Conference Trip" onerror="this.style.display='none';">
+              <img src="assets/images/labfun/2025-conference/photo3.jpeg" alt="Conference Trip" onerror="this.style.display='none';">
+              <div class="photo-placeholder">No Photos Yet</div>
             </div>
             <div class="labfun-info">
               <h3 class="labfun-title">Conference Trip</h3>
-              <p class="labfun-date">October 2024</p>
+              <p class="labfun-date">November 2025</p>
               <p class="labfun-description">
                 Team members presenting research findings at an international conference.
               </p>
             </div>
           </div>
 
-          <!-- Photo Gallery Placeholder 3 -->
+          <!-- Event 3: Welcome Party -->
           <div class="labfun-card">
-            <div class="labfun-photo">
-              <div class="photo-placeholder">Photo</div>
+            <div class="labfun-gallery">
+              <img src="assets/images/labfun/2025-welcome/photo1.jpeg" alt="Welcome Party" onerror="this.style.display='none';">
+              <img src="assets/images/labfun/2025-welcome/photo2.jpeg" alt="Welcome Party" onerror="this.style.display='none';">
+              <div class="photo-placeholder">No Photos Yet</div>
             </div>
             <div class="labfun-info">
               <h3 class="labfun-title">Welcome Party</h3>
               <p class="labfun-date">September 2024</p>
               <p class="labfun-description">
-                Welcoming new team members to Joshua's Lab with a celebration.
+                Welcoming new team members to ENT Genomics Lab with a celebration.
               </p>
             </div>
           </div>
@@ -140,7 +165,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-left">
-        <span>Joshua's Lab</span>
+        <span>ENT Genomics Lab</span>
         <span class="footer-dot">·</span>
         <span>
           NUS Yong Loo Lin School of Medicine, Department of Otolaryngology
