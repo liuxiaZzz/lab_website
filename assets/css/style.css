@@ -271,7 +271,7 @@ img {
   background-repeat: no-repeat;
   /* Deep appearance with fixed background */
   background-attachment: fixed;
-  background-image: url('../images/durian.jpg');
+  background-image: url('../images/background.png');
 }
 
 .hero::before {
