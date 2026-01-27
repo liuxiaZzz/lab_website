@@ -271,7 +271,7 @@ img {
   background-repeat: no-repeat;
   /* Deep appearance with fixed background */
   background-attachment: fixed;
-  background-image: url('../images/background.png');
+  background-image: url('../images/site/background.png');
 }
 
 .hero::before {
@@ -918,12 +918,23 @@ img {
 
 .member-photo {
   margin-bottom: 20px;
+  width: 100%;
+  aspect-ratio: 4/5; /* 固定长宽比，确保大小一致 */
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--bg-elevated);
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 关键：裁剪图片以填满容器，不变形 */
+  display: block;
 }
 
 .member-photo .photo-placeholder {
   width: 100%;
-  aspect-ratio: 1;
-  border-radius: 8px;
+  height: 100%;
   background: linear-gradient(135deg, rgba(44, 90, 160, 0.08) 0%, rgba(44, 90, 160, 0.03) 100%);
   display: flex;
   align-items: center;
@@ -1005,6 +1016,14 @@ img {
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
+}
+
+.profile-photo-large img {
+  width: 280px;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
 }
 
 .profile-photo-large .photo-placeholder {
@@ -1111,6 +1130,53 @@ img {
 .profile-email:hover {
   color: #3d6bb3;
   text-decoration: underline;
+}
+
+/* Simple Profile Layout */
+.profile-simple-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(45, 55, 72, 0.12);
+  box-shadow: var(--shadow-soft);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .profile-simple-container {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+  }
+}
+
+.profile-intro-text {
+  flex: 1;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--text-main);
+  white-space: pre-line; /* Allows preserving newlines if any */
+  padding-right: 20px;
+}
+
+.profile-photo-side {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 320px; /* Slightly larger for side view */
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo-side img {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
 }
 
 /* News */
