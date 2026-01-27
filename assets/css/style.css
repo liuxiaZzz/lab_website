@@ -796,6 +796,14 @@ img {
   flex-shrink: 0;
 }
 
+.pi-photo img {
+  width: 250px;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
+}
+
 .pi-photo .photo-placeholder {
   width: 200px;
   height: 200px;
