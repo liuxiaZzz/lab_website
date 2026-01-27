@@ -195,8 +195,8 @@ const translations = {
       "NUS Yong Loo Lin School of Medicine, Department of Otolaryngology",
     footer_rights_prefix: "©",
     footer_rights_suffix: "All rights reserved.",
-    footer_link_nus_ent: "NUS ENT",
-    footer_link_nuh_ent: "NUH ENT"
+    footer_link_nus_ent: "NUS Department of Otolaryngology",
+    footer_link_nuh_ent: "NUH Otolaryngology"
   },
 
   zh: {
